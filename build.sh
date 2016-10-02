@@ -26,4 +26,4 @@ if [[ ! -d dist ]]; then
   mkdir dist
 fi
 cp v8/out/native/*.a ./dist
-cd dist && tar -zcvf ../v8-$V8VERSION.$BUILD-$OS-$ARCH.tar.gz . && cd ..
+cd dist && tar -zcvf ../libv8-$V8VERSION.$BUILD-$OS-${ARCH}bit.tar.gz . && cd ..
