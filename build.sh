@@ -6,7 +6,7 @@ lowercase() {
 
 OS=`lowercase \`uname\``
 V8VERSION="4.9.385.33"
-BUILD="1"
+BUILD="2"
 ARCH=`getconf LONG_BIT`
 
 git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
