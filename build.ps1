@@ -1,7 +1,7 @@
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 
 $V8VERSION = "4.9.385.33"
-$BUILD = "1"
+$BUILD = "2"
 
 wget https://storage.googleapis.com/chrome-infra/depot_tools.zip -OutFile $pwd\depot_tools.zip
 [System.IO.Compression.ZipFile]::ExtractToDirectory("$pwd\depot_tools.zip", "$pwd\depot_tools")
